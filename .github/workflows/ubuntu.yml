@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
-    - uses: fastai/workflows/ssh@master
+    - uses: rokibhasansagar/slimhub_actions@main
       with:
         ssh_key: ${{ secrets.SSH_KEY }}
         key_file: id_ecdsa
